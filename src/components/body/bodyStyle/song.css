@@ -1,0 +1,14 @@
+.title{
+    font-weight: 900;
+    
+}
+
+.wrapper{
+    display: inline-block;
+    margin: 0.5rem  0rem 0.5rem 0.5rem;
+    transition: all 0.1s ease-in;
+}
+
+.wrapper:hover{
+    transform: scale(1.1);
+}

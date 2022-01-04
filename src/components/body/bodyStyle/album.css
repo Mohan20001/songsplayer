@@ -1,0 +1,37 @@
+.w{
+    position: relative;
+    width: 60vw;
+    min-width: 310px;
+    max-width: 70vw;
+    height: 30.024vw;
+    min-height: 190px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    margin-inline: auto;
+}
+
+.img-wrapper{
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.list ul{
+    list-style-type:none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.list ul li{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: red;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.row{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 207px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row::-webkit-scrollbar{
+    display: none;
+}
+.headLine{
+    font-weight: 900;
+    padding: 0rem 0rem 0rem 0.5rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: inline-block;
+    overflow: hidden;
+}
